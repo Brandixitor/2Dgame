@@ -14,3 +14,7 @@ public class CharacterMovement : MonoBehaviour
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
     }
 }
+
+
+
+// Made by Brandixitor
