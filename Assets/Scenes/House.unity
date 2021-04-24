@@ -744,10 +744,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad370e121747fe48b36e9ce404c3c03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 298493839}
-  isSwaying: 0
-  randomrangemin: 0
-  randomrangemax: 0
 --- !u!95 &298493839
 Animator:
   serializedVersion: 3
@@ -1625,10 +1621,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad370e121747fe48b36e9ce404c3c03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 604608755}
-  isSwaying: 0
-  randomrangemin: 0
-  randomrangemax: 0
 --- !u!1 &697847276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,6 +1832,7 @@ GameObject:
   - component: {fileID: 809910514}
   - component: {fileID: 809910517}
   - component: {fileID: 809910515}
+  - component: {fileID: 809910516}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1878,6 +1871,19 @@ CapsuleCollider2D:
   m_Offset: {x: 20.66, y: 2.77}
   m_Size: {x: 2.57, y: 8.61}
   m_Direction: 0
+--- !u!114 &809910516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809910513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f5cc48650a19c45b8f89044d7bb010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementSpeed: 10
 --- !u!50 &809910517
 Rigidbody2D:
   serializedVersion: 4
@@ -3207,10 +3213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad370e121747fe48b36e9ce404c3c03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1606491788}
-  isSwaying: 0
-  randomrangemin: 30
-  randomrangemax: 98
 --- !u!95 &1606491788
 Animator:
   serializedVersion: 3
